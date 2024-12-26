@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!-- //        // Function to check if a value is truthy or falsy
+    // function checkTruthyFalsy(value) {
+    //     if (value) {
+    //         console.log(`${value} is truthy.`);
+    //     } else {
+    //         console.log(`${value} is falsy.`);
+    //     }
+    // }
+    
+    // // Testing with various values
+    // checkTruthyFalsy(true);        // true is truthy
+    // checkTruthyFalsy(false);       // false is falsy
+    // checkTruthyFalsy(1);           // 1 is truthy
+    // checkTruthyFalsy(0);           // 0 is falsy
+    // checkTruthyFalsy("Hello");     // "Hello" is truthy
+    // checkTruthyFalsy("");          // "" is falsy
+    // checkTruthyFalsy([]);          // [] is truthy
+    // checkTruthyFalsy([0]);         // [0] is truthy
+    // checkTruthyFalsy({});          // {} is truthy
+    // checkTruthyFalsy(null);        // null is falsy
+    // checkTruthyFalsy(undefined);   // undefined is falsy
+    // checkTruthyFalsy(NaN);         // NaN is falsy
+    // checkTruthyFalsy(Infinity);    // Infinity is truthy -->
+<!-- <script>   
+let age = 18;
+        if(age >= 25){
+            console.log("you are eligible for voting");
+        }
+        else{
+            console.log("you are not eligible for voting");
+        }
+
+        //if elif statement 
+        let salary = 12000;
+        if(salary > 20000){
+            console.log("you are a high salary earner");
+        }
+        else if(salary > 10000){
+            console.log("you are a middle salary earner");
+        }
+        else{
+            console.log("you are a low salary earner");
+        } -->
+
+        <!-- //break and continue statments 
+        // let numbers = [10, 20, 30, 400, 50,40,44,66,88,99]   
+        // for(let i = 0; i < numbers.length; i++){
+        //     if(numbers[i] == 40){
+        //         console.log(i)
+        //         break;
+
+        //     }
+        //     console.log(i)
+
+        
+        
+
+        let num =  [1, 2, 3, 4,5,6,6,5,4,6]
+        for(let i = 0; i < num.length; i++){
+            if(num[i] == 4){
+                continue;
+        }
+        console.log(i)
+
+    } -->
+    <!-- //    let a = parseInt(prompt("Enter first number: "));
+    //       let b = parseInt(prompt("Enter second number: "));
+    //       let c = prompt("Enter operator:");
+    //       if (c == "+") {
+    //         alert("result:- " + (a + b));
+    //       } else if (c == "-") {
+    //         alert("result:- " + (a - b));
+    //       } else if (c == "*") {
+    //         alert("result:- " + a * b);
+    //       } else if (c == "/") {
+    //         alert("result:- " + a / b);
+    //       } else {
+    //         alert("Enter valid number"); -->
+           
+    
+
+<!-- </script> -->
+<script>
+
+
+// Student Dashboard - Interactive Menu
+
+let userInput = prompt("Enter a number (1-5):");
+
+switch(parseInt(userInput)) {
+    case 1:
+        console.log("You selected option 1: View Grades");
+        break;
+    case 2:
+        console.log("You selected option 2: Check Attendance");
+        break;
+    case 3:
+        console.log("You selected option 3: View Assignments");
+        break;
+    case 4:
+        console.log("You selected option 4: Contact Teacher");
+        break;
+    case 5:
+        console.log("You selected option 5: Log Out");
+        break;
+    default:
+        console.log("Invalid option. Please select ");
+}
+
+let a = Number(prompt("enter first number:"));
+        let b = Number(prompt("enter second  number:"));
+        let operator = prompt("enter the operator(+, -, *, /, %)");
+        let result;
+        if(operator === "+")
+    {
+        result = a + b;
+    }
+    else if( operator === "-")
+    {
+        result = a - b;
+    }
+    else if( operator === "*")
+    {
+        result = a * b;
+    }
+    else if( operator === "/")
+    {
+        result = a / b;
+    }
+    else if( operator === "%")
+    {
+        result = a % b;
+    }
+    alert("The result is:" + result);
+
+
+</script>
+    
+</body>
+</html>
